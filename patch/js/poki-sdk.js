@@ -145,7 +145,7 @@ PokiSDK= function() {
   this.commercialBreak= function(){
     consoleLog("--fx--PokiSDK--commercialBreak--");
     return new Promise((resolve, reject)=> {
-      loadJS("https://subway-surfers.org//ads/commercial.js", resolve);  
+      loadJS("https://subway-surfers.org/ads/commercial.js", resolve);  
     });
   }
 
