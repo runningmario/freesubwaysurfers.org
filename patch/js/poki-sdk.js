@@ -145,14 +145,14 @@ PokiSDK= function() {
   this.commercialBreak= function(){
     consoleLog("--fx--PokiSDK--commercialBreak--");
     return new Promise((resolve, reject)=> {
-      loadJS("https://www.ubg235.com/ads/commercial.js", resolve);  
+      loadJS("https://subway-surfers.org//ads/commercial.js", resolve);  
     });
   }
 
   this.rewardedBreak= function() {
    consoleLog("--fx--PokiSDK--rewardedBreak--");
     return new Promise((resolve, reject)=> {
-      loadJS("https://www.ubg235.com/ads/rewarded.js", resolve);
+      loadJS("https://subway-surfers.org/ads/rewarded.js", resolve);
     }); 
   }
 
